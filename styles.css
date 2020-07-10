@@ -1,7 +1,18 @@
+:root {
+    --background-color: #FFF9FB;
+    --primary-color: #4B88A2;
+    --secundary-color: #4C97B7;
+    --text-color: #00171F;
+    }
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
+    color: var(--text-color);
+}
+body {
+    background: var(--background-color);
 }
 
 .main {
@@ -28,7 +39,52 @@ h1 {
 
 .quote-bar {
     margin: 6px;
-    background: #4B88A2;
+    background: var(--primary-color);
     width: 3px;
     height: 150px;
+}
+
+.ip {
+    display: flex;
+    margin: 40px 0px;
+    align-items: center;
+}
+
+.ip-title {
+    margin: 0px 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ip-state {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgba(0, 23, 31, 40%);
+}
+
+.button-main {
+    display: flex;
+}
+
+.btn-shop {
+    background: var(--primary-color);
+    padding: 18px 80px;
+    color: var(--background-color);
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 40px;
+    margin-right: 20px;
+}
+
+.btn-more {
+    background: var(--background-color);
+    padding: 15px 40px;
+    color: var(--primary-color);
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: var(--primary-color);
+    margin-left: 20px;
 }
