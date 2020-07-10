@@ -3,3 +3,32 @@
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
 }
+
+.main {
+    margin-left: 100px;
+    margin-top: 15vh;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.quote {
+    display: flex;
+    align-items: center;
+}
+
+.quote-title {
+    max-width: 470px;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-bar {
+    margin: 6px;
+    background: #4B88A2;
+    width: 3px;
+    height: 150px;
+}
