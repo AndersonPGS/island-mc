@@ -239,3 +239,9 @@ h2 {
 .container .card:nth-child(3){
     z-index: 1;
 }
+
+footer p{
+    text-align: center;
+    color: rgba(0, 23, 31, 40%);
+    padding: 10px;
+}
