@@ -89,6 +89,10 @@ h1 {
     margin-left: 20px;
 }
 
+.btn-more:hover {
+    cursor: pointer;
+}
+
 .subtitle {
     width: 100%;
     left: 50%;
