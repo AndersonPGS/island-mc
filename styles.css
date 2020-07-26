@@ -110,6 +110,9 @@ h1 {
 .btn-more:hover {
     cursor: pointer;
 }
+.btn-shop:hover {
+    cursor: pointer;
+}
 
 .subtitle {
     width: 100%;
@@ -266,4 +269,9 @@ footer p{
     text-align: center;
     color: rgba(0, 23, 31, 40%);
     padding: 10px;
+}
+
+
+.hide {
+    display: none;
 }
