@@ -139,6 +139,12 @@ h2 {
     font-size: 22px;
     margin: 20px 26%;
 }
+.subtitle-shop {
+    color: rgba(0, 23, 31, 40%);
+    margin: 15px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
 
 .bodyContainer {
     display: flex;
