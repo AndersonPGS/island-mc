@@ -26,5 +26,5 @@ function btnshop (){
         contentSobre.classList.add("hide");
         contentShop.classList.remove("hide");
     }
-    //document.getElementById('sobre').scrollIntoView({behavior: "smooth"});
+    document.getElementById('shop').scrollIntoView({behavior: "smooth"});
 }
