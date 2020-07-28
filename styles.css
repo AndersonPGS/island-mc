@@ -271,13 +271,98 @@ h2 {
     z-index: 1;
 }
 
+.body-shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+}
+.container-shop {
+    position: relative;
+    width: 1150px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-shop {
+    position: relative;
+    width: 300px;
+    height: 420px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,.2);
+    transition: 0.5s;
+}
+.container-shop:hover .card-shop {
+    filter:blur(20px);
+    transform: scale(0.9);
+    opacity: 0.5;
+}
+.container-shop .card-shop:hover  {
+    filter:blur(0px);
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.circle-shop {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    clip-path: circle(180px at center 0);
+    text-align: center;
+}
+.circle-shop h2 {
+    color: #fff;
+    font-size: 4.5em;
+    padding: 30px 0;
+}
+
+.container-shop .card-shop .content-shop {
+    position: absolute;
+    bottom: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container-shop .card-shop .content-shop p{
+    color: #666;
+}
+.container-shop .card-shop .content-shop a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.container-shop .card-shop:nth-child(1) .circle-shop,  
+.container-shop .card-shop:nth-child(1) .content-shop a{
+    background: #4C97B7;
+}
+.container-shop .card-shop:nth-child(2) .circle-shop,  
+.container-shop .card-shop:nth-child(2) .content-shop a{
+    background: #FF3B3B;
+}
+.container-shop .card-shop:nth-child(3) .circle-shop,  
+.container-shop .card-shop:nth-child(3) .content-shop a{
+    background: #13C15E;
+}
+
+.hide {
+    display: none;
+}
+
 footer p{
     text-align: center;
     color: rgba(0, 23, 31, 40%);
     padding: 10px;
-}
-
-
-.hide {
-    display: none;
 }
