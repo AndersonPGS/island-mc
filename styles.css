@@ -163,7 +163,8 @@ h2 {
     width: 1050px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
     transition: 0.5s;
 }
 
@@ -175,6 +176,7 @@ h2 {
     margin: 20px 20px;
     transition: 0.5s;
 }
+
 
 .container .card:before{
     content: '';
