@@ -16,7 +16,7 @@ body {
 }
 
 .main {
-    margin-left: 100px;
+    margin: 0 10%;
     margin-top: 15vh;
 }
 
@@ -64,7 +64,8 @@ h1 {
 
 .ip {
     display: flex;
-    margin: 40px 0px;
+    flex-wrap: wrap;
+    margin: 40px 0px 20px;
     align-items: center;
 }
 
@@ -76,6 +77,7 @@ h1 {
 
 .ip-state {
     font-size: 22px;
+    margin: 0px 5px;
     font-weight: bold;
     text-transform: uppercase;
     color: rgba(0, 23, 31, 40%);
@@ -83,6 +85,7 @@ h1 {
 
 .button-main {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .btn-shop {
@@ -92,7 +95,8 @@ h1 {
     font-size: 24px;
     font-weight: bold;
     border-radius: 40px;
-    margin-right: 20px;
+    margin-right: 4%;
+    margin-top: 20px;
 }
 
 .btn-more {
@@ -104,7 +108,7 @@ h1 {
     border-radius: 40px;
     border-style: solid;
     border-color: var(--primary-color);
-    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .btn-more:hover {
@@ -137,7 +141,7 @@ h2 {
 .subtitle-text {
     color: rgba(0, 23, 31, 40%);
     font-size: 22px;
-    margin: 20px 26%;
+    margin: 20px 26% 30px;
 }
 .subtitle-shop {
     color: rgba(0, 23, 31, 40%);
@@ -150,8 +154,8 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    overflow: hidden;
+    min-height: 90vh;
+    /* overflow: hidden; */
     
 }
 .container {
@@ -159,7 +163,7 @@ h2 {
     width: 1050px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     transition: 0.5s;
 }
 
@@ -168,6 +172,7 @@ h2 {
     width: 300px;
     height: 400px;
     background: #fff;
+    margin: 20px 20px;
     transition: 0.5s;
 }
 
