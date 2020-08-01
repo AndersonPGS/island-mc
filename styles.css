@@ -13,6 +13,7 @@
 }
 body {
     background: var(--background-color);
+    cursor: default;
 }
 
 .main {
