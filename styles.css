@@ -18,6 +18,16 @@ body {
     background-repeat: no-repeat;
     background-size: 65%, 68%;
     background-position: 130% -10%, 128% -10%;
+    animation: wave 3s cubic-bezier(.28,0,.41,1) infinite;
+}
+
+@keyframes wave {
+    0%,100% {
+        background-position-x: 130%, 128%;
+    }
+    60% {
+        background-position-x: 140%, 140%;
+    }
 }
 
 .main {
