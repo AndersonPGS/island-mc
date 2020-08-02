@@ -77,7 +77,7 @@ h1 {
     height: 150px;
 }
 
-.ip {
+.ip-hud {
     display: flex;
     flex-wrap: wrap;
     margin: 40px 0px 20px;
@@ -85,6 +85,11 @@ h1 {
 }
 
 .ip-title {
+    margin: 0px 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.ip {
     margin: 0px 5px;
     font-size: 30px;
     font-weight: bold;
