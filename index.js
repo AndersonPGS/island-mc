@@ -28,3 +28,13 @@ function btnshop (){
     }
     document.getElementById('shop').scrollIntoView({behavior: "smooth"});
 }
+
+function clipboard(){
+    var copyText = document.querySelector(".ip");
+    var textArea = document.createElement("textarea");
+    textArea.value = copyText.textContent;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand("Copy");
+    textArea.remove();
+}
